@@ -1,6 +1,6 @@
 FROM centos:8
 
-MAINTAINER Kihi
+LABEL maintainer="kihi"
 
 RUN dnf -y update && \
     dnf clean all
